@@ -1,0 +1,115 @@
+/* ============================
+            google-font 
+=============================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* ====================================
+        common style or unilities 
+===================================== */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+/* ================================ 
+            header-area-style 
+==================================== */
+.header-area{
+    background: #2D25A0;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 86px;
+    
+}
+.container{
+    width: 1164px;
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 42px;
+    padding-bottom: 49px;
+}
+/* -------------------- nav -------------- */
+nav ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+nav ul li{
+    margin-right: 36px;
+
+}
+nav ul li a{
+    font-size: 16px;
+    color: #fff;
+}
+
+/* -------------------login-------------------- */
+.login a{
+    padding: 10px 24px;
+    background-color: #E02C6D    ;
+    color: #fff;
+}
+
+/* ----------------------copa america--------------------- */
+
+.header-bottom{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 102px;
+}
+
+.copa-title{
+    font-size: 64px;
+    color: #fff;
+}
+.copa-thumbnail img{
+    width: 556.01px;
+
+}
+
+/* ============================
+        main  area style
+===================================*/
+.players-list{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 26px;
+
+}
+
+.player{
+    padding: 15px;
+    width: 300px;
+    background: #FFFFFF;
+box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.player-thumb img{
+    width: 100%;
+    height: 256px;
+}
+.player-name{
+    font-size: 28px;
+    margin-bottom:0;
+    margin-top: 20px;
+}
+.player-details p{
+    color: #6C6C6C;
+}
