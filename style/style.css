@@ -15,8 +15,12 @@ a{
     text-decoration: none;
 }
 
-
-
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin: 35px 0; */
+}
 
 
 /* ================================ 
@@ -80,7 +84,7 @@ nav ul li a{
 
 /* ============================
         main  area style
-===================================*/
+=================================== */
 .players-list{
     display: flex;
     justify-content: center;
@@ -112,4 +116,71 @@ box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
 .player-details p{
     color: #6C6C6C;
+}
+
+
+/*================================
+     highlights-area start css
+==================================== */
+.highlight-area{
+    margin-top: 165px;
+    margin-bottom: 158px;
+}
+.highlights{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 66px;
+}
+.high-thumb img{
+    width: 567px;
+    height: 427px;
+}
+.high-content{
+    margin-top: 58px;
+}
+.high-title{
+    font-size: 48px;
+    margin-bottom: 0;
+}
+
+.high-content p{
+    margin-bottom: 24px;
+}
+
+
+
+/* ===========================
+        footer-area css 
+================================== */
+.foot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.foot-thumb img{
+    width: 483.87px;
+}
+.social-icon{
+    margin: 20px 0;
+    display: flex;
+}
+.social-icon .icon{
+    background: #E7E7E8;
+    display: flex;
+    color: #969BAB;
+    justify-content: center;
+    Width :32px;
+    Height : 32px;
+    border-radius: 50%;
+    align-items: center;
+    margin-left: 15px;
+    transition: .3s;
+    
+} 
+.social-icon .icon:hover{
+    transform: rotate(360deg);
+}
+.copyright{
+    font-size: 18px;
+    margin-bottom: 63px;
 }
